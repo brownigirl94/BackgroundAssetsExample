@@ -60,6 +60,7 @@
 
 /* Begin PBXFileReference section */
 		22F3075ED70045B397A2A348 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		77B89CF62A832B370074C180 /* JuliaAlvarez_AllApps.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = JuliaAlvarez_AllApps.mobileprovision; sourceTree = "<group>"; };
 		7E1F08C829EE12CC0053DC48 /* SharedSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedSettings.swift; sourceTree = "<group>"; };
 		7E61548929E0934300738FCA /* Manifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manifest.swift; sourceTree = "<group>"; };
 		7E6FDE0B29E86B6F00EC25C0 /* SessionDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDescription.swift; sourceTree = "<group>"; };
@@ -71,7 +72,7 @@
 		7EF8A70B29EDC42F00F7DF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EF8A70C29EDC42F00F7DF03 /* WWDC_Sessions_Background_Assets_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WWDC_Sessions_Background_Assets_Extension.entitlements; sourceTree = "<group>"; };
 		7EF8A71829EDC94200F7DF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
-		B319E3315D728D6699BF2E1D /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		B319E3315D728D6699BF2E1D /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C017B2B42A047F41007DECBC /* PreviewSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewSessionManager.swift; sourceTree = "<group>"; };
 		C070684229DB5B1C00E9B8E8 /* WWDC Sessions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WWDC Sessions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C070684529DB5B1C00E9B8E8 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
@@ -86,7 +87,7 @@
 		C08DFF622A12CD0B00152F27 /* BackgroundAssets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BackgroundAssets.framework; path = System/Library/Frameworks/BackgroundAssets.framework; sourceTree = SDKROOT; };
 		C08DFF642A12CD1200152F27 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		C08DFF672A12CD2C00152F27 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		F9D57BDE52110A72E6B298D5 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		F9D57BDE52110A72E6B298D5 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				B319E3315D728D6699BF2E1D /* LICENSE.txt */,
+				77B89CF62A832B370074C180 /* JuliaAlvarez_AllApps.mobileprovision */,
 			);
 			name = LICENSE;
 			path = ../LICENSE;
@@ -374,7 +376,7 @@
 				CODE_SIGN_ENTITLEMENTS = "WWDC Sessions Background Assets Extension/WWDC_Sessions_Background_Assets_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = T7GK9RT44H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WWDC Sessions Background Assets Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "WWDC Sessions Background Assets Extension";
@@ -384,7 +386,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WWDC-Sessions${SAMPLE_CODE_DISAMBIGUATOR}.downloader-extension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JuliaAlvarez.SampleApp.SampleExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -402,7 +404,7 @@
 				CODE_SIGN_ENTITLEMENTS = "WWDC Sessions Background Assets Extension/WWDC_Sessions_Background_Assets_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = T7GK9RT44H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WWDC Sessions Background Assets Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "WWDC Sessions Background Assets Extension";
@@ -412,7 +414,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WWDC-Sessions${SAMPLE_CODE_DISAMBIGUATOR}.downloader-extension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JuliaAlvarez.SampleApp.SampleExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -559,7 +561,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"WWDC Sessions/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = T7GK9RT44H;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -578,7 +580,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WWDC-Sessions${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JuliaAlvarez.SampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
@@ -600,7 +602,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"WWDC Sessions/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = T7GK9RT44H;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -619,7 +621,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WWDC-Sessions${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JuliaAlvarez.SampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;

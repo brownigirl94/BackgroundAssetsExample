@@ -76,7 +76,7 @@ struct BackgroundDownloadHandler: BADownloaderExtension {
         if failedDownload.isEssential {
             Logger.ext.warning("Rescheduling failed download: \(failedDownload.identifier). \(error)")
             do {
-                let optionalDownload = failedDownload.removingEssential()
+                let optionalDownload = failedDownload.removingEssential() // returns a nonEssential copy
                 try BADownloadManager.shared.scheduleDownload(optionalDownload)
             } catch {
                 Logger.ext.warning("Failed to reschedule download \(failedDownload.identifier). \(error)")
